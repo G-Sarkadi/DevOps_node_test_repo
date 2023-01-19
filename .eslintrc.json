@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "plugins": [
+    ],
+    "extends": [
+        "airbnb-base"
+    ],
+    "rules": {
+        "no-console": "off",
+        "indent": ["error", "4"]
+    },
+    "parserOptions": {
+        "ecmaVersion": 12
+    }
+}

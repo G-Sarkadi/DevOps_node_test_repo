@@ -1,0 +1,6 @@
+Create image:
+docker build -t node_test .
+
+
+Run docker image:
+docker run --rm -dp 3000:3000 node_test
