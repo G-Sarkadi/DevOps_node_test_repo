@@ -5,7 +5,7 @@ describe("Test the root path", () => {
   test("Returns 'Hello World!'", () => {
     return request(app)
       .get("/")
-      .expect("Hellllllo World!\n")
+      .expect("Hello World!\n")
       .expect(200);
   });
 });
